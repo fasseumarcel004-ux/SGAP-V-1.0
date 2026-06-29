@@ -1,0 +1,4 @@
+/home/fasseudeken/C++/Decodeur/obj/Debug/net7.0/Decodeur.GeneratedMSBuildEditorConfig.editorconfig
+/home/fasseudeken/C++/Decodeur/obj/Debug/net7.0/Decodeur.AssemblyInfoInputs.cache
+/home/fasseudeken/C++/Decodeur/obj/Debug/net7.0/Decodeur.AssemblyInfo.cs
+/home/fasseudeken/C++/Decodeur/obj/Debug/net7.0/Decodeur.csproj.CoreCompileInputs.cache
