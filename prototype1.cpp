@@ -187,6 +187,7 @@ namespace sgap {
                 return false;
             }
             std::string ligne;
+            std::getline(fichier, ligne);
             while(std::getline(fichier, ligne)){
                 std::stringstream ss(ligne);
                 std::string idStr,nomStr,heureStr,minuteStr,statutStr;
@@ -205,7 +206,7 @@ namespace sgap {
                         e.nom = nomStr;
                         e.arrivee.heure = static_cast<uint8_t>(std::stoi(heureStr));
                         e.arrivee.minute = static_cast<uint8_t>(std::stoi(minuteStr));
-                        e.estPresent = (statutStr == "P");
+                        mettreAJourStatut(e);
                         liste.push_back(e);
                     }
                 }
