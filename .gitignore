@@ -1,4 +1,8 @@
 *.exe
+Decodeur/obj/
+Decodeur/bin/
+*.json
+*.cache
 *.o
 *.obj
 out/
